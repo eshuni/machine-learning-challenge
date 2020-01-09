@@ -1,0 +1,16 @@
+Summarizes your assumptions and findings.
+    
+Results for Logistic Regression
+  Training Data Score: 0.8411214953271028
+  Testing Data Score: 0.8409610983981693
+
+Results for GridSearchCV
+  Training Data Score: 0.5060080106809078
+  Testing Data Score: 0.4879862700228833
+  Best params: {'C': 1, 'gamma': 0.0001}
+  Best score: 0.5056265496852946
+  
+Results for Neural Network
+   Normal Neural Network - Loss: 1.0483392946234558, Accuracy: 0.489130437374115
+
+These are the summaries of my models. Logistic Regression testing data score is almost two times higher than GridSearchCV. The best parameter for the GridSearchCV is grama 0.0001. The accurancy of the data is 0.4891 which is not very good.
